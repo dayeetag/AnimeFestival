@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+
+    <script src="js/index.js" defer="true"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Anime Film Fest</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html" class="active">Home</a>
+          </li>
+          <li><a href="./whats-on.html">What's On</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="./tickets.html" id="tickets-btn">Tickets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="details">
+        <h1>G1 Anime Film Fest</h1>
+        <p>Dates: 22 Oct, 2023 - 24 Oct, 2023</p>
+        <p>Venue: Cineplex Yonge & Dundas</p>
+      </div>
+
+      <div id="countdown"></div>
+    </main>
+
+    <!-- Activities -->
+    <section id="activities"></section>
+
+    <!-- Tickets & Pricing -->
+    <section id="tickets">
+      <h1>Tickets & Pricing</h1>
+      <div id="ticket-details"></div>
+    </section>
+
+    <!-- Venue -->
+    <section id="venue">
+      <h1>VENUE</h1>
+      <h3>Cineplex Yonge & Dundas</h3>
+
+      <div id="venue-details">
+        <div id="map" style="width: 100%; height: 500px"></div>
+        <script
+          src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+          integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+          crossorigin=""
+        ></script>
+
+        <a
+          href="https://www.google.com/maps/dir//Cineplex+Cinemas+Yonge-Dundas+and+VIP,+10+Dundas+St+E+%23402,+Toronto,+ON+M5B+2G9/@43.6569252,-79.3829688,17z/data=!4m17!1m7!3m6!1s0x882b34cad3ff9e3f:0x32de30e5d4d727db!2sCineplex+Cinemas+Yonge-Dundas+and+VIP!8m2!3d43.6569252!4d-79.3803939!16s%2Fg%2F11b6gh43yp!4m8!1m0!1m5!1m1!1s0x882b34cad3ff9e3f:0x32de30e5d4d727db!2m2!1d-79.3803939!2d43.6569252!3e3?entry=ttu"
+          target="_blank"
+          id="directions"
+        >
+          HOW DO I GET THERE?
+        </a>
+      </div>
+    </section>
+
+    <!-- Sponsors -->
+    <section id="sponsors">
+      <h1>SPONSORS</h1>
+      <div id="logos"></div>
+    </section>
+
+    <footer>
+      <div id="socials">
+        <a href="https://discord.com/" target="_blank"
+          ><img src="./assets/images/socials/discord-logo-rgb.png"
+        /></a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="./assets/images/socials/facebook-logo-rgb.png"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="./assets/images/socials/instagram-logo-rgb.png"
+        /></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img src="./assets/images/socials/youtube-logo-rgb.png"
+        /></a>
+      </div>
+
+      <p>Anime Film Fest<br />© G1 All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

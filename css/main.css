@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* border: 1px solid red; */
+}
+
+.large-text {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+/* #region header */
+header {
+  color: black;
+  height: 100px;
+  padding: 0 3%;
+  border-bottom-left-radius: 50px;
+  background-color: #ffa8d7;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  font-size: 16px;
+  text-transform: uppercase;
+  list-style: none;
+
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+nav .active {
+  text-decoration: underline;
+}
+
+nav #tickets-btn {
+  background-color: black;
+  padding: 15px 45px;
+  border-radius: 5px;
+
+  color: white;
+  font-weight: normal;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* #endregion header */
+
+/* #region footer */
+footer {
+  width: 100%;
+  padding: 43px 0px 15px 0px;
+  background: #000;
+  border-top-right-radius: 100px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: auto;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+}
+
+#socials img {
+  height: 40px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 25px;
+}
+/* #endregion footer */

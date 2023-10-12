@@ -1,0 +1,181 @@
+body {
+  background-color: #182d45;
+}
+
+/* #region main */
+main {
+  color: white;
+  height: 85vh;
+  text-align: right;
+
+  background-image: url("../assets/images/highlights/studio-4-2-a.gif");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+#details {
+  padding-right: 3%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#countdown {
+  padding-right: 3%;
+  font-size: xx-large;
+
+  display: flex;
+  flex-flow: row-reverse;
+  gap: 10px;
+}
+/* #endregion main */
+
+/* #region activities */
+#activities {
+  padding: 20vh 3%;
+  background-color: #080d11;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.activity > img {
+  width: 200px;
+}
+/* #endregion activities */
+
+/* #region tickets & pricing */
+#tickets {
+  /* background-color: #080d11; */
+  background: linear-gradient(180deg, #080d11 0%, #182d45 100%);
+  padding: 25px 3%;
+}
+
+#tickets h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+#tickets > div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#tickets .choice {
+  border-radius: 50px;
+  background: #ffa8d7;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 5px 5px 4px 0px rgba(255, 255, 255, 0.25);
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 25px;
+}
+
+#tickets .buy-button {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+
+  width: 100%;
+  padding: 25px 0;
+  border-radius: 0px 0px 50px 50px;
+  background-color: black;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#tickets .buy-button:hover {
+  text-decoration: underline;
+}
+
+#tickets table {
+  padding: 10px 25px;
+}
+
+#tickets table p {
+  padding: 5px;
+}
+/* #endregion tickets & pricing */
+
+/* #region leaflet map */
+#venue {
+  color: white;
+  padding: 50px 3% 25px 3%;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#venue-details {
+  width: 100%;
+  margin-top: 25px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#map {
+  border-radius: 10px 10px 0 0;
+}
+
+#venue-details #directions {
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  background-color: black;
+  padding: 15px 0;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#venue-details #directions:hover {
+  text-decoration: underline;
+}
+/* #endregion leaflet map */
+
+/* #region sponsors */
+#sponsors {
+  color: white;
+  padding: 10vh 3% 20vh 3%;
+}
+
+#sponsors h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+#logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+#logos img {
+  width: 250px;
+}
+/* #endregion sponsors */

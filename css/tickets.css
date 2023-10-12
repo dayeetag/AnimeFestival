@@ -1,0 +1,87 @@
+html {
+    background-color: black;
+  }
+/*perks header*/
+#perks{
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1%;
+}
+/*scrollable image gallery, refers to */
+div.scrollbar {
+    background-color: black; 
+    overflow: auto;
+    white-space: nowrap;
+    padding: 1%;
+    text-align:center;
+    color: whitesmoke;
+    }
+    
+div.scrollbar img {
+    padding: 3px;
+    height: 300px;
+    }
+
+/* Main section styles */
+#main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #182D44;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    gap: 2%;
+}
+
+/* Form styles */
+#form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    padding: 3% 3%;
+    font-size: xx-large;
+}
+
+#quant, #card {
+    font-size: x-large;
+}
+
+button{
+    font-size: xx-large;
+    margin-top: 3%;
+}
+
+/*Button on hover*/
+button:hover {
+    background-color: #ffa8d7; 
+    color: #ffffff; 
+    cursor: pointer;
+  }
+
+/* Error message style */
+#error {
+    color: red;
+}
+
+/* Output styles */
+.output {
+    display: flex;
+    justify-content: center;
+    padding: 5% 5%;
+    font-size: xx-large;
+    color: white;
+    white-space: nowrap; /* Keep content from wrapping */
+    border-radius: 50px 50px 50px 50px;
+}
+
+/* List styles within the output */
+.output ul {
+    list-style: none;
+}

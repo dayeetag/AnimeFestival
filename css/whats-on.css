@@ -1,0 +1,53 @@
+section{
+  margin: 20px 100px;
+}
+
+section button{
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.movie{
+  display: flex;
+  align-items: center;
+  margin: 20px 100px;
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+
+.movieTime{
+  width: 20vw;
+  text-align: center;
+  font-size: xx-large;
+  padding: 10px;
+}
+
+
+.trailer{
+  width: 30vw;
+  height: 40vh;
+}
+
+
+.movieDetails{
+  height: 100%;
+  width: 50vw;
+  background-color: white;
+  color: black;
+  padding: 0px 10px;
+  font-size: large;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.movieDetails p{
+  margin: 10px 0px;
+}
+.synopsis{
+  text-align: justify;
+}
