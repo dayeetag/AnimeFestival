@@ -1,5 +1,5 @@
 // #region countdown timer
-const eventDate = new Date("2023-10-22T00:00:00").getTime();
+const eventDate = new Date("2025-05-22T00:00:00").getTime();
 const countdownInterval = setInterval(updateCountdown, 1000); // execute function per ms
 
 function updateCountdown() {
