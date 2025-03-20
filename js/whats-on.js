@@ -4,7 +4,7 @@ const movieDetail=[
         time: "10AM - 12PM",
         day1: {
             name: "Violet Evergarden Movie",
-            date: "22nd OCT",
+            date: "22nd MAY",
             director: "Taichi Ishidate",
             trailerURL: "https://www.youtube.com/embed/tNpWUtEdHJw?si=ySo4gm4LGDbmgmIV",
             genre: "Fantasy Romance",
@@ -12,7 +12,7 @@ const movieDetail=[
         },
         day2: {
             name: "Koe no Katachi (A Silent Voice)",
-            date: "23rd OCT",
+            date: "23rd MAY",
             director: "Naoko Yamada",
             trailerURL: "https://www.youtube.com/embed/nfK6UgLra7g?si=MvAB4slBrK4gX_4f",
             genre: "Romance Drama",
@@ -20,7 +20,7 @@ const movieDetail=[
         },
         day3: {
             name: "K-On! Movie",
-            date: "24th OCT",
+            date: "24th MAY",
             director: "Naoko Yamada",
             trailerURL: "https://www.youtube.com/embed/f-_BPUz-Rxs?si=2fmFhBCeQA1JZyyY",
             genre: "Musical Comedy",
@@ -32,7 +32,7 @@ const movieDetail=[
         time: "1PM - 3PM",
         day1: {
             name: "Ookami Kodomo no Ame to Yuki (Wolf Children)",
-            date: "22nd OCT",
+            date: "22nd MAY",
             director: "Mamoru Hosoda",
             trailerURL: "https://www.youtube.com/embed/ns8PWyfEz60?si=j7Do2hHwxkeNOogf",
             genre: "Fantasy Drama",
@@ -40,7 +40,7 @@ const movieDetail=[
         },
         day2: {
             name: "Ryuu to Sobakasu no Hime (Belle)",
-            date: "23rd OCT",
+            date: "23rd MAY",
             director: "Mamoru Hosoda",
             trailerURL: "https://www.youtube.com/embed/-l-nWz6dhE8?si=udOAZJHTXIeB8qs7",
             genre: "Adventure Drama",
@@ -48,7 +48,7 @@ const movieDetail=[
         },
         day3: {
             name: "Mirai no Mirai (Mirai)",
-            date: "24th OCT",
+            date: "24th MAY",
             director: "Mamoru Hosoda",
             trailerURL: "https://www.youtube.com/embed/6d-lsJZgmJs?si=nzgfq-xH_xMQsz-q",
             genre: "Fantasy Adventure",
@@ -60,7 +60,7 @@ const movieDetail=[
         time: "3:30PM - 5:30PM",
         day1: {
             name: "Howl no Ugoku Shiro (Howl's Moving Castle)",
-            date: "22nd OCT",
+            date: "22nd MAY",
             director: "Hayao Miyazaki",
             trailerURL: "https://www.youtube.com/embed/iwROgK94zcM?si=1NgowKQKV5BCO4Jn",
             genre: "Fantasy Adventure",
@@ -68,7 +68,7 @@ const movieDetail=[
         },
         day2: {
             name: "Sen to Chihiro no Kamikakush (Spirited Away)",
-            date: "23rd OCT",
+            date: "23rd MAY",
             director: "Hayao Miyazaki",
             trailerURL: "https://www.youtube.com/embed/ByXuk9QqQkk?si=-2pY349KbEy63byY",
             genre: "Fantasy Adventure",
@@ -76,7 +76,7 @@ const movieDetail=[
         },
         day3: {
             name: "Tonari no Totoro (My Neighbor Totoro)",
-            date: "24th OCT",
+            date: "24th MAY",
             director: "Hayao Miyazaki",
             trailerURL: "https://www.youtube.com/embed/92a7Hj0ijLs?si=4px_mkWb9zOZcSxv",
             genre: "Fantasy Adventure",
@@ -88,7 +88,7 @@ const movieDetail=[
         time: "6PM - 8PM",
         day1: {
             name: "Suzume no Tojimari (Suzume)",
-            date: "22nd OCT",
+            date: "22nd MAY",
             director: "Makoto Shinkai",
             trailerURL: "https://www.youtube.com/embed/IfKNOUUtyCA?si=H-UrgBDny1oPShWJ",
             genre: "Fantasy Adventure",
@@ -96,7 +96,7 @@ const movieDetail=[
         },
         day2: {
             name: "Kimi no Na wa (Your Name)",
-            date: "23rd OCT",
+            date: "23rd MAY",
             director: "Makoto Shinkai",
             trailerURL: "https://www.youtube.com/embed/ayi6VfCKBcA?si=SfZG75qpDui04c4I",
             genre: "Fantasy Drama",
@@ -104,7 +104,7 @@ const movieDetail=[
         },
         day3: {
             name: "Tenki no Ko (Weathering With You)",
-            date: "24th OCT",
+            date: "24th MAY",
             director: "Makoto Shinkai",
             trailerURL: "https://www.youtube.com/embed/Q6iK6DjV_iE?si=xxLMa0bUl2SIAkbJ",
             genre: "Fantasy Drama",
@@ -116,7 +116,7 @@ const movieDetail=[
         time: "9PM - 11PM",
         day1: {
             name: "Paprika",
-            date: "22nd OCT",
+            date: "22nd MAY",
             director: "Satoshi Kon",
             trailerURL: "https://www.youtube.com/embed/PIUqozzyW2k?si=nsGlZ7zWpTIp9ER-",
             genre: "Psychological Thriller",
@@ -124,7 +124,7 @@ const movieDetail=[
         },
         day2: {
             name: "Tokyo Godfathers",
-            date: "23rd OCT",
+            date: "23rd MAY",
             director: "Satoshi Kon",
             trailerURL: "https://www.youtube.com/embed/ZL_2E-HfIZY?si=K4wv7NblCsWK0Iw1",
             genre: "Adventure Comedy",
@@ -132,7 +132,7 @@ const movieDetail=[
         },
         day3: {
             name: "Perfect Blue",
-            date: "24th OCT",
+            date: "24th MAY",
             director: "Satoshi Kon",
             trailerURL: "https://www.youtube.com/embed/fsz9D7hNgg8?si=2peQ3uxwwOG0cqO5",
             genre: "Psychological Thriller",
